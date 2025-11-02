@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest --run",
-    "lint": "eslint ."  
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/GonzaloROD/gha-node#readme",
   "devDependencies": {
     "eslint": "^9.38.0",
+    "globals": "^16.5.0",
     "vitest": "^4.0.5"
   }
 }
