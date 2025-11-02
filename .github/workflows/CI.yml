@@ -1,11 +1,11 @@
-name : Node CI
+name : Node ci
 on :
-  push :
+  push :  
     branches : [ main ]
   pull_request :   
     branches : [ main ]
-jobs :
-ci:
+jobs:
+  ci:
     runs-on : ubuntu-latest
     steps :
     - name : checkout code
